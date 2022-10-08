@@ -3,11 +3,11 @@
 
 #include <SoftwareSerial.h>
 #include <TinyGPS++.h>
-int in1=5;  //P3_3
-int in2=6; //P3_4
-int in3=13; //P3_0
-int in4=12;  //P3_1
-int sensor=2;  //P3_6
+int in1=5; 
+int in2=6; 
+int in3=13; 
+int in4=12; 
+int sensor=2;  
 int value=0;
 unsigned long start;
 double lat_val, lng_val, alt_m_val;
