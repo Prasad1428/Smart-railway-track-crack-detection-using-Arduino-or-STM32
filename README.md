@@ -1,4 +1,7 @@
 # Smart-railway-track-crack-detection-using-Arduino-or-STM32
+The idea of this project is to detect the crack in the railway line using object detection application of IR sensor.The output of this sensor is given to the board.The board then controls the motor using driver IC.After detection of crack the location that is received through GPS module is sent to a mobile no.(i.e mentioned in the code) using GSM module.
+
+
 Components needed to build this project:-
 1.STM32-Nucleo F401RE/Arduino UNO board.
 2.IR sensor
