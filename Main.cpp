@@ -59,7 +59,7 @@ void loop()
 {
   mySerial.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
   delay(1000);  // Delay of 1000 milli seconds or 1 second
-  mySerial.println("AT+CMGS=\"+919152639776\"\r"); // Replace x with mobile number
+  mySerial.println("AT+CMGS=\"+91xxxxxxxxx\"\r"); // Replace x with mobile number
   delay(1000);
   mySerial.println("Crack detected !");
   mySerial.println("Latitude:");
